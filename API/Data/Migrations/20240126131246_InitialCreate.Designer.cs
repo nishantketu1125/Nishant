@@ -33,7 +33,7 @@ namespace API.Data.Migrations
 
                     b.Property<string>("Phone")
                         .HasColumnType("TEXT");
-
+                
                     b.HasKey("Id");
 
                     b.ToTable("Users");

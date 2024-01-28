@@ -1,0 +1,7 @@
+<h1> {{ title }} Team Members </h1>
+
+<ul>
+  <li *ngFor="let users of user">
+    {{users.id}} : {{users.name}} : {{users.email}} : {{users.phone}}
+  </li>
+</ul>
